@@ -1,7 +1,21 @@
+import 'dart:io';
+
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:mac_store_app/views/screens/authentication_screen/login_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  Platform.isAndroid
+      ? await Firebase.initializeApp(
+          options: FirebaseOptions(
+          apiKey: 'AIzaSyCvHPdb5XgTynX7v_8mP71qBK5GcZhgr6g',
+          appId: '1:4565131966:android:12513561388299a51db4ef',
+          messagingSenderId: '4565131966',
+          projectId: 'my-app-acfb8',
+          storageBucket: 'gs://my-app-acfb8.firebasestorage.app',
+        ))
+      : await Firebase.initializeApp();
   runApp(const MyApp());
 }
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "4565131966",
+    "project_id": "my-app-acfb8",
+    "storage_bucket": "my-app-acfb8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4565131966:android:12513561388299a51db4ef",
+        "android_client_info": {
+          "package_name": "com.ljuban.mac_store_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvHPdb5XgTynX7v_8mP71qBK5GcZhgr6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
